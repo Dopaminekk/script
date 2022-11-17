@@ -1,0 +1,12 @@
+#!name=趣听音乐去弹窗
+#!desc=最新去升级弹窗
+#!icon= https://raw.iqiq.io/ShadowCabnient/1111/main/FA803060-B481-4469-9E23-DD5BF9894F9F.png
+#!homepage=https://github.com/Dopaminekk
+#!author=Dopaminekk
+
+[MITM]
+hostname= api.bspapp.com
+
+[Script]
+
+http-response https:\/\/api.bspapp.com\/client requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Dopaminekk/script/main/quting.js
