@@ -5,7 +5,7 @@
 QuantumultX:
 
 [rewrite_local]
-https:\/\/api.bspapp.com\/client url script-response-body https://raw.githubusercontent.com/ShadowCabnient/script/main/quting.js?token=GHSAT0AAAAAAB2I4ICRSGVWUMS3ZVGTRHSOY3WOZQA
+https:\/\/api.bspapp.com\/client url script-response-body https://raw.githubusercontent.com/Dopaminekk/script/main/quting.js
 
 [mitm]
 hostname = api.bspapp.com
@@ -14,7 +14,7 @@ hostname = api.bspapp.com
 Surge4 or Loon:
 
 [Script]
-http-response https:\/\/api.bspapp.com\/client requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ShadowCabnient/script/main/quting.js?token=GHSAT0AAAAAAB2I4ICRSGVWUMS3ZVGTRHSOY3WOZQA
+http-response https:\/\/api.bspapp.com\/client requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Dopaminekk/script/main/quting.js
 
 [MITM]
 hostname = api.bspapp.com
