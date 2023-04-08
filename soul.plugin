@@ -1,0 +1,14 @@
+[Script]
+
+http-response ^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo script-path=https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/Soul.js, requires-body=true, timeout=10, tag=Soul
+
+
+
+
+
+[MITM]
+hostname = api-chat.soulapp.cn
+
+
+
+
